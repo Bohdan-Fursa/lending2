@@ -258,3 +258,80 @@ h2{
 .buy-button a:hover{
     background: linear-gradient(92.9deg, #5BCA6D 0%, #4B922A 98.33%) !important;
 }
+h3{
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 900 !important;
+    font-size: 50px !important;
+    line-height: 138.9% !important;
+    text-transform: uppercase !important;
+    color: #FFFFFF !important;
+    background-color: #68AC4E;
+    width: 50%;
+    padding-left: 331px;
+    padding-top: 144px;
+    padding-bottom: 144px;
+}
+.advantages-text{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 7%;
+    margin-right: 10%;
+    width: 30%;
+}
+.advantages-text span{
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 156.4% !important;
+    color: #222222 !important;
+}
+.advantages{
+    position: relative;
+    background-color: white;
+}
+h4{
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 900 !important;
+    font-size: 50px !important;
+    line-height: 138.9% !important;
+    text-transform: uppercase !important;
+    color: #222222 !important;
+    text-align: center;
+    padding-top: 120px;
+}
+.work-img{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(178, 186, 207, 0.38);
+    border-radius: 22px;
+    padding: 15px;
+    height: 70px;
+}
+.work{
+    top: 0;
+    background-color: #F7F7F9;
+}
+.work-details{
+    padding-left: 67px;
+}
+.work-details div{
+    display: inline-flex;
+    padding-left: 25px;
+}
+.work-details span{
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 121.4% !important;
+    color: #222222 !important;
+}
+.how-we-work{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 136px;
+}
