@@ -639,6 +639,9 @@ h6{
     color: #68AC4E;
     text-decoration: none;
 }
+.document-button a:hover{
+    text-decoration: underline;
+}
 .documents{
     background: #F7F7F9;
 }
