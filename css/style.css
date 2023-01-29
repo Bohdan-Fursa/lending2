@@ -168,7 +168,7 @@ h2{
     text-align: center !important;
     font-family: 'Montserrat' !important;
     font-style: normal !important;
-    font-weight: 700 !important;
+    font-weight: 900 !important;
     font-size: 50px !important;
     line-height: 138.9% !important;
     text-transform: uppercase !important;
@@ -667,11 +667,6 @@ h7{
 .diplomes img{
     margin-left: 30px;
 }
-@media only screen and (max-width:1600px) {
-    .fon-vector{
-        margin-right: 7%;
-    }
-}
 .zsy{
     min-height: 100vh;
     background: #F7F7F9;
@@ -726,9 +721,310 @@ h7{
     border-radius: 22px;
     padding: 15px;
     font-size: 30px;
+    text-transform: uppercase;
 }
 .statistics-button a:hover{
     color: gray;
     background-color: white;
     border: none;
+}
+.preview-mobile{
+    display: none;
+}
+.fon-moblie{
+    position: relative;
+}
+.fon-moblie img{
+    width: 100%;
+}
+.preview-mobile-text{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 103px;
+}
+.preview-mobile-text span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 121.4%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.preview-mobile-text p{
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 121.4% !important;
+    color: #FFFFFF !important;
+}
+.mobile-text-h{
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 900 !important;
+    font-size: 46px !important;
+    line-height: 138.9% !important;
+    text-transform: uppercase !important;
+    color: #FFFFFF !important;
+}
+.advice-mobile{
+    display: none;
+    text-align: center;
+}
+.advice-mobile a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 138.9%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(92.9deg, #80CC8C 0%, #64A745 98.33%);
+    box-shadow: 10px 10px 40px rgba(96, 155, 68, 0.71);
+    border-radius: 8px;
+    padding: 25px;
+}
+.advice-mobile a:hover{
+    background: linear-gradient(92.9deg, #5BCA6D 0%, #4B922A 98.33%);
+}
+@media screen and (max-width:425px){
+    .preview{
+        display: none;
+    }
+    .preview-mobile{
+        display: block;
+    }
+    .none{
+        display: none;
+    }
+    .card{
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+    .buy-button{
+        margin-top: 10%;
+    }
+    h2{
+        font-size: 30px !important;
+        padding-top: 30%;
+    }
+    .cards3{
+        padding-top: 54px;
+    }
+    .advice-mobile{
+        display: block;
+    }
+    h3{
+        width: 100%;
+        padding-left: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    h4{
+        font-size: 30px !important;
+    }
+    .advantages-text{
+        position: static;
+        width: 100% !important;
+        padding: 20px;
+    }
+    .how-we-work{
+        padding-top: 0;
+        flex-direction: column;
+    }
+    .work-details{
+        padding-top: 30px;
+    }
+    .work-details div{
+        padding-left: 10px;
+    }
+    .cards2{
+        flex-direction: column;
+    }
+    .card-details{
+        width: 85% !important;
+        margin-top: 30px;
+    }
+    .responses{
+        padding-top: 63px;
+    }
+    .response{
+        flex-direction: column;
+    }
+    .response-text{
+        padding-top: 25px;
+        padding-left: 0;
+        text-align: center;
+    }
+    h5{
+        font-size: 30px !important;
+    }
+    .footer-texts{
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-text-details{
+        border-right: 0;
+        border-bottom: 1px solid #C2C2C2;
+    }
+    .design{
+        position: static;
+        margin-left: 70px;
+    }
+    .tables{
+        align-items: center;
+        flex-direction: column;
+    }
+    .table{
+        width: 70% !important;
+    }
+    .diplomes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .diplomes img{
+        margin-left: 0;
+        padding-top: 10px;
+    }
+    h6{
+        font-size: 35px !important;
+    }
+    h7{
+        font-size: 45px !important;
+    }
+    .zaluzhnyj{
+        width: 100px !important;
+    }
+    .statistics-text span{
+        font-size: 20px !important;
+    }
+    .hundred-thousand{
+        font-size: 38px !important;
+    }
+    .statistics{
+        padding: 55px !important;
+    }
+    .statistics-button a{
+        font-size: 10px !important;
+    }
+    .rysnia{
+        margin-top: 0 !important;
+        width: 30px !important;
+    }
+}
+@media screen and (max-width:1024px){
+    .fon{
+        height: auto;
+    }
+    .fon-vector{
+        width: 300px;
+        margin-right: 8%;
+    }
+    .utilization-text{
+        width: 300px;
+    }
+    h1{
+        font-size: 20px !important;
+    }
+    .preview-text{
+        margin-top: 11%;
+        margin-left: 30px;
+    }
+    .preview-text span{
+        font-size: 15px !important;
+    }
+    .recycle2 p{
+        font-size: 15px !important;
+        padding-bottom: 0;
+    }
+    .advice{
+        padding: 15px;
+    }
+    .leaf_of_tree_1{
+        width: 50px;
+    }
+    .leaf_of_tree_2{
+        margin-left: 42%;
+        width: 50px;
+    }
+    .preview{
+        padding-bottom: 40px;
+    }
+    h3{
+        padding-left: 30px;
+    }
+    .advantages-text{
+        margin-top: 5%;
+        width: 35%;
+    }
+    .how-we-work{
+        flex-direction: column;
+        padding-top: 0;
+        align-items: center;
+    }
+    .work-details{
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    .card-details{
+        width: 43%;
+    }
+    .table-none{
+        display:none;
+    }
+    .responses{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .response{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .response-text{
+        padding-top: 30px;
+    }
+    .footer-texts{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-text-details{
+        border-right: 0;
+        border-bottom: 1px solid #C2C2C2;
+    }
+    .diplomes img{
+        margin-left: 10px;
+    }
+    .hundred-thousand{
+        font-size: 80px !important;
+    }
+    .rysnia{
+        width: 90px;
+    }
+    .zaluzhnyj{
+        width: 200px;
+    }
+    .statistics-button a{
+        font-size: 20px;
+    }
+    .statistics{
+        padding: 50px;
+    }
+}
+@media screen and (max-width:320px){
+    h3{
+        padding-left: 0;
+    }
+    .card-details{
+        width: 75% !important;
+    }
+    h7{
+        font-size: 30px !important;
+    }
 }
